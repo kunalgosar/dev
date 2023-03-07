@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "One Dark Theme",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "atom-icons",
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#535662"
+    },
+    "editor.rulers": [80,120],
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Monaco",
+    "editor.fontSize": 14,
+    "editor.tokenColorCustomizations": {
+    "[Solarized Dark]": {}
+    },
+    "editor.renderLineHighlight": "none",
+    "go.gocodeFlags": [
+        "-builtin",
+        "-ignore-case"
+    ],
+    "go.lintOnSave": "off",
+    "editor.showUnused": false,
+    "go.vetOnSave": "off",
+    "files.insertFinalNewline": true,
+    "go.lintTool": "golint",
+    "go.useLanguageServer": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
+
