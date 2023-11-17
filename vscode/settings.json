@@ -29,5 +29,12 @@
     "[python]": {
         "editor.formatOnType": true
     },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/tmp**": true,
+        "**/lightning_logs**": true,
+        "**/__pycache__**": true,
+        "**/bazel-**": true
+    },
 }
 
