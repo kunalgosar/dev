@@ -20,7 +20,6 @@ config-dev() {
     cd ~/dev/arcus/platform-core/platform-service && export AWS_PROFILE=arcus-dev && make configure-cluster-dev
     cd "$original_pwd"
 }
-
 alias cluster-dev="config-dev && k9s -n arcus-dev"
 
 config-prod() {
